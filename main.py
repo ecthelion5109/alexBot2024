@@ -2,7 +2,8 @@ import discord
 from discord.ext import commands
 import requests
 import webserver
-from token import TOKEN
+# import token 
+from mytoken import TOKEN
 # import os 
 
 # TOKEN = os.getenv("TOKEN_DISCORDBOT2024")
