@@ -10,8 +10,8 @@ from mytoken import TOKEN
 
 intents = discord.Intents.default()
 intents.message_content = True
-
-bot = commands.Bot(command_prefix='!', intents=intents)
+prefix = "!"
+bot = commands.Bot(command_prefix=prefix, intents=intents)
 
 # pip install requests
 # pip install python.py
